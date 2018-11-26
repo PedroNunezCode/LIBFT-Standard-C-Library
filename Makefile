@@ -63,11 +63,11 @@ $(NAME): $(OFILES)
 
 clean:
 	@rm -f $(OFILES)
-	@echo "\033[32mlibft object files removed.\033[0m"
+	@echo "\033[31mlibft object files removed.\033[0m"
 
 fclean: clean
 	@rm -f $(NAME)
-	@echo "\033[32mlibft.a removed.\033[0m"
+	@echo "\033[31mlibft.a removed.\033[0m"
 
 re: fclean all
 re: fclean all
