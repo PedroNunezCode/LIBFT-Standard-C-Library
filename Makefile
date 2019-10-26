@@ -70,4 +70,3 @@ fclean: clean
 	@echo "\033[31mlibft.a removed.\033[0m"
 
 re: fclean all
-re: fclean all
