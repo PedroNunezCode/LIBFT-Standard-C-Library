@@ -6,11 +6,12 @@
 /*   By: pnunez <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/02 15:51:58 by pnunez            #+#    #+#             */
-/*   Updated: 2018/01/11 18:58:21 by pnunez           ###   ########.fr       */
+/*   Updated: 2019/11/13 20:11:23 by pnunez           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 int		len(long nb)
 {
 	int		len;
@@ -31,7 +32,7 @@ int		len(long nb)
 
 char	*ft_itoa(int nb)
 {
-	char *str;
+	char	*str;
 	long	n;
 	int		i;
 
